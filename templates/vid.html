@@ -8,7 +8,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type='text/css' href="https://adarsh-goel.github.io/resources/style.css">
     
     <style type="text/css">
         body {
@@ -24,6 +23,44 @@
             width: 100%;
             height: 100%;
         }
+        
+         .plyr--full-ui input[type=range] {
+
+     color: var(--player-hover-color);
+
+ }
+
+ .plyr__control--overlaid {
+
+     background: #1E1E1E;
+
+ }
+
+ 
+
+ .plyr--video .plyr__control.plyr__tab-focus,
+
+ .plyr--video .plyr__control:hover,
+
+ .plyr--video .plyr__control[aria-expanded=true] {
+
+     background: var(--player-hover-color);
+
+ }
+
+ 
+
+ .plyr__control.plyr__tab-focus {
+
+     box-shadow: 0 0 0 5px ;
+
+ }
+
+ 
+
+ .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+
+     background: violet;
     </style>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.css">
